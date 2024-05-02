@@ -1,7 +1,85 @@
 body {
-  background-color: rgb(220, 198, 219);
+  background-color: rgb(0, 0, 0);
 }
 
+html {
+  font-family: sans-serif;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100vh);
+  scroll-snap-type: y mandatory;
+}
+section {
+  scroll-snap-align: start;
+  text-align: center;
+  position: relative;
+}
+img {
+  width: 75%;
+  height: 100vh;
+  object-fit: cover;
+  filter: blur(1px);
+}
+
+p {
+  color: antiquewhite;
+}
+
+.textbox {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px 40px;
+  position: absolute;
+  z-index: 3;
+  border-radius: 3%;
+  overflow: hidden;
+}
+
+.t1 {
+  left: 15%;
+  top: 15%;
+  width: 33%;
+  height: 55%;
+}
+
+.t2 {
+  left: 55%;
+  top: 55%;
+  width: 15%;
+  height: 25%;
+}
+
+.background {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.img1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("images/smartcity_1.jpeg");
+  height: 100vh;
+}
+.img2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/smartcity_2.jpeg");
+  height: 100vh;
+}
+.img3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/smartcity_3.jpeg");
+}
+.img4 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/smartcity_4.jpeg");
+}
+.img5 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("images/smartcity_5.jpeg");
+}
+/*
 .nav-container a {
   padding: 20px;
   color: black;
@@ -33,77 +111,7 @@ a {
   justify-content: center;
   border: 1px solid black;
 }
-
-.box:hover {
-  background-color: #911d48;
-}
-.box1:hover {
-  background-color: #ba692f;
-}
-.box2:hover {
-  background-color: #c8c838;
-}
-.box3:hover {
-  background-color: #41ac3f;
-}
-.box4:hover {
-  background-color: #302ea3;
-}
-.box5:hover {
-  background-color: #8828a8;
-}
-
-.box1 {
-  display: flex;
-  flex-flow: row wrap;
-  width: 200px;
-  height: 200px;
-  background-color: #b795cd;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid black;
-}
-
-.box2 {
-  display: flex;
-  flex-flow: row wrap;
-  width: 200px;
-  height: 200px;
-  background-color: #b795cd;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid black;
-}
-.box3 {
-  display: flex;
-  flex-flow: row wrap;
-  width: 200px;
-  height: 200px;
-  background-color: #b795cd;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid black;
-}
-.box4 {
-  display: flex;
-  flex-flow: row wrap;
-  width: 200px;
-  height: 200px;
-  background-color: #b795cd;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid black;
-}
-.box5 {
-  display: flex;
-  flex-flow: row wrap;
-  width: 200px;
-  height: 200px;
-  background-color: #b795cd;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid black;
-}
+/*
 .nav-container {
   background-color: #b795cd;
   color: black;
@@ -124,44 +132,4 @@ a {
 .nav-container a:hover {
   color: aliceblue;
 }
-
-.current {
-  font-weight: 600;
-}
-.Made {
-  color: #5d1461;
-}
-.Not-Made {
-  color: #291970;
-}
-#made .Made {
-  color: #5d1461;
-}
-#made .Not-Made {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
-
-#not-made .Not-Made {
-  color: #291970;
-}
-#not-made .Made {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
-img {
-  max-width: 200px;
-  max-height: 200px;
-}
+*/
