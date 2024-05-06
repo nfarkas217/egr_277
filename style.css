@@ -2,8 +2,19 @@ body {
   background-color: rgb(0, 0, 0);
 }
 
+h2,
+h1 {
+  color: antiquewhite;
+}
+
+ul li {
+  color: antiquewhite;
+  text-align: left;
+}
+
 html {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: antiquewhite;
   scroll-snap-type: mandatory;
   scroll-snap-points-y: repeat(100vh);
   scroll-snap-type: y mandatory;
@@ -61,7 +72,7 @@ p {
   position: absolute;
   z-index: 3;
   border-radius: 3%;
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .t1 {
@@ -72,10 +83,66 @@ p {
 }
 
 .t2 {
-  left: 55%;
-  top: 55%;
-  width: 15%;
+  left: 47%;
+  top: 71%;
+  width: 30%;
+  height: 23%;
+}
+
+.t3 {
+  left: 15%;
+  top: 15%;
+  width: 64.5%;
+  height: 30%;
+}
+
+.t4 {
+  left: 15%;
+  top: 60%;
+  width: 64.5%;
+  height: 20%;
+}
+
+.t5 {
+  right: 15%;
+  top: 3%;
+  width: 30%;
+  height: 30%;
+}
+
+.t6 {
+  left: 13%;
+  top: 11%;
+  width: 30%;
   height: 25%;
+}
+
+.t7 {
+  left: 30%;
+  top: 41%;
+  width: 30%;
+  height: 25%;
+}
+
+.t8 {
+  left: 15%;
+  top: 15%;
+  width: 64.5%;
+  height: 10%;
+}
+
+.t9 {
+  left: 15%;
+  top: 35%;
+  width: 28%;
+  height: 50%;
+}
+
+.t10 {
+  left: 51%;
+  top: 35%;
+  width: 28%;
+  height: 50%;
 }
 
 .background {
@@ -153,13 +220,13 @@ p {
 /* Style the back side */
 .flip-card-back {
   background-color: transparent;
-  color: white;
+  color: antiquewhite;
   transform: rotateY(180deg);
 }
 
 .heading {
   background-color: transparent;
-  color: rgb(253, 253, 237);
+  color: antiquewhite;
   position: absolute;
   rotate: 90deg;
   top: 120px;
@@ -173,4 +240,10 @@ p {
 .reg {
   top: 170px;
   right: -50px;
+}
+
+.bar {
+  display: inline-flex;
+  flex-direction: row;
+  text-align: left;
 }
