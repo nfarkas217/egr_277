@@ -145,6 +145,75 @@ p {
   height: 50%;
 }
 
+.t11 {
+  left: 13%;
+  top: 11%;
+  width: 30%;
+  height: 20%;
+}
+.t12 {
+  left: 50%;
+  top: 11%;
+  width: 30%;
+  height: 20%;
+}
+
+.t13 {
+  left: 13%;
+  top: 36%;
+  width: 30%;
+  height: 20%;
+}
+
+.t14 {
+  left: 50%;
+  top: 36%;
+  width: 30%;
+  height: 20%;
+}
+
+.t15 {
+  left: 13%;
+  top: 61%;
+  width: 30%;
+  height: 20%;
+}
+
+.t16 {
+  left: 50%;
+  top: 61%;
+  width: 30%;
+  height: 20%;
+}
+
+.t17 {
+  right: 15%;
+  top: 40%;
+  width: 30%;
+  height: 10%;
+}
+
+.t18 {
+  right: 15%;
+  top: 60%;
+  width: 30%;
+  height: 10%;
+}
+
+.t19 {
+  right: 15%;
+  top: 80%;
+  width: 30%;
+  height: 10%;
+}
+
+.t20 {
+  left: 13%;
+  top: 11%;
+  width: 30%;
+  height: 80%;
+}
+
 .background {
   background-attachment: fixed;
   background-position: center;
