@@ -214,6 +214,13 @@ p {
   height: 80%;
 }
 
+.t21 {
+  left: 20%;
+  top: 10%;
+  width: 60%;
+  height: 80%;
+}
+
 .background {
   background-attachment: fixed;
   background-position: center;
@@ -244,7 +251,7 @@ p {
 }
 .img5 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("images/smartcity_5.jpeg");
+    url("images/tech_bg.jpeg");
 }
 
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
